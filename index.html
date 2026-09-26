@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jio Khulke 365 - Integral Therapeutic</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Animated Kidney Background -->
+    <div class="kidney-animation-container">
+        <svg class="floating-kidney kidney-1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <path d="M50 10 C 30 10, 20 25, 20 40 C 20 60, 35 85, 50 90 C 60 85, 70 70, 75 55 C 80 40, 75 20, 60 15 C 55 13, 52 10, 50 10 Z" fill="#2d7a5a" opacity="0.15"/>
+        </svg>
+        <svg class="floating-kidney kidney-2" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <path d="M50 10 C 30 10, 20 25, 20 40 C 20 60, 35 85, 50 90 C 60 85, 70 70, 75 55 C 80 40, 75 20, 60 15 C 55 13, 52 10, 50 10 Z" fill="#2d7a5a" opacity="0.1"/>
+        </svg>
+        <svg class="floating-kidney kidney-3" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <path d="M50 10 C 30 10, 20 25, 20 40 C 20 60, 35 85, 50 90 C 60 85, 70 70, 75 55 C 80 40, 75 20, 60 15 C 55 13, 52 10, 50 10 Z" fill="#2d7a5a" opacity="0.12"/>
+        </svg>
+    </div>
+
+    <!-- Main Container -->
+    <div class="main-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo-container">
+                <!-- Company Leaf Logo SVG -->
+                <svg class="company-logo" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#4fa76f;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#2d7a5a;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <!-- 5-leaf design matching your company logo -->
+                    <g transform="translate(100, 100)">
+                        <!-- Top leaf -->
+                        <ellipse cx="0" cy="-45" rx="15" ry="35" fill="url(#leafGrad)" transform="rotate(0)"/>
+                        <!-- Top-right leaf -->
+                        <ellipse cx="35" cy="-25" rx="15" ry="35" fill="url(#leafGrad)" transform="rotate(50 35 -25)"/>
+                        <!-- Bottom-right leaf -->
+                        <ellipse cx="30" cy="25" rx="15" ry="35" fill="url(#leafGrad)" transform="rotate(110 30 25)"/>
+                        <!-- Bottom-left leaf -->
+                        <ellipse cx="-30" cy="25" rx="15" ry="35" fill="url(#leafGrad)" transform="rotate(-110 -30 25)"/>
+                        <!-- Top-left leaf -->
+                        <ellipse cx="-35" cy="-25" rx="15" ry="35" fill="url(#leafGrad)" transform="rotate(-50 -35 -25)"/>
+                        <!-- Center stem -->
+                        <rect x="-3" y="-10" width="6" height="30" fill="#2d7a5a" rx="3"/>
+                    </g>
+                </svg>
+                <div class="logo-text">
+                    <h1>INTEGRAL THERAPEUTIC</h1>
+                </div>
+            </div>
+            <div class="specialty-badge">Nephrology</div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="content">
+            <!-- Medical Kidney Animated Video - Transparent Background -->
+            <div class="kidney-icon-container">
+                <div class="kidney-glow-circle"></div>
+                <video class="kidney-image-rotating" autoplay loop muted playsinline>
+                    <source src="kidney_transparent.webm" type="video/webm">
+                    <source src="kidney_video.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <!-- Title Section -->
+            <div class="title-section">
+                <p class="subtitle">A patient companion from Integral Therapeutic</p>
+                <h2 class="main-title">Jio Khulke</h2>
+                <h3 class="year-title">365</h3>
+                <p class="journey-text">Journey Book</p>
+            </div>
+
+            <!-- Description Box -->
+            <div class="description-box">
+                <h4 class="description-title">Iron Deficiency in CKD</h4>
+                <p class="description-text">
+                    A nephrologist's guide for the patient — simple, steady steps to understand 
+                    and manage iron levels through chronic kidney disease.
+                </p>
+            </div>
+
+            <!-- Language Selection -->
+            <div class="language-section">
+                <div class="language-instruction">
+                    <svg class="hand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20,8h-5V5c0-1.1-0.9-2-2-2s-2,0.9-2,2v3H6C4.9,8,4,8.9,4,10v10c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V10C22,8.9,21.1,8,20,8z" fill="white"/>
+                    </svg>
+                    Tap a language below to open your Journey Book
+                </div>
+                
+                <div class="language-buttons">
+                    <button class="language-btn" data-lang="english" onclick="openBook('english')">
+                        <span>English</span>
+                    </button>
+                    <button class="language-btn" data-lang="hindi" onclick="openBook('hindi')">
+                        <span>Hindi</span>
+                    </button>
+                    <button class="language-btn" data-lang="marathi" onclick="openBook('marathi')">
+                        <span>Marathi</span>
+                    </button>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <h3 class="footer-title">Happier Healthier Harmony</h3>
+            <p class="footer-subtitle">Integral Therapeutic — patient education, nephrology</p>
+        </footer>
+    </div>
+
+    <!-- Book Viewer Modal -->
+    <div id="bookModal" class="book-modal">
+        <div class="modal-header">
+            <h3 id="bookTitle">Journey Book</h3>
+            <button class="close-btn" onclick="closeBook()">&times;</button>
+        </div>
+        <div class="book-container">
+            <div id="flipbook" class="flipbook"></div>
+        </div>
+        <div class="book-controls">
+            <button class="control-btn" id="prevBtn" onclick="previousPage()" aria-label="Previous page">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="15 18 9 12 15 6"></polyline>
+                </svg>
+            </button>
+            <span class="page-indicator" id="pageIndicator">Page 1</span>
+            <button class="control-btn" id="nextBtn" onclick="nextPage()" aria-label="Next page">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

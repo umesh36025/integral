@@ -1,0 +1,45 @@
+# Documentation files (not needed for deployment)
+*.md
+!README.md
+
+# Development files
+START-SERVER.bat
+*.txt
+
+# Advanced features (if not using)
+index-advanced.html
+advanced-features.js
+advanced-styles.css
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Node modules (if any)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Keep these files for deployment:
+# - index.html
+# - styles.css
+# - script.js
+# - *.pdf (all PDF files)
+# - *.webm (video files)
+# - *.mp4 (video fallback)
+# - *.png (images)
+# - vercel.json
+# - .vercelignore

@@ -1,0 +1,22 @@
+# Ignore documentation and development files
+*.md
+!README.md
+
+# Ignore development files
+START-SERVER.bat
+*.txt
+
+# Ignore advanced features (if not needed)
+index-advanced.html
+advanced-features.js
+advanced-styles.css
+
+# Ignore node_modules if any
+node_modules/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Keep only production files
